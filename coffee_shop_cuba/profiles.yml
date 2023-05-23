@@ -1,0 +1,26 @@
+coffee_shop_cuba:
+  outputs:
+    dev:
+      dataset: dbt_cubamp
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: aec-students
+      threads: 8
+      type: bigquery
+  target: dev
+default:
+  outputs:
+    dev:
+      location: US
+      method: oauth
+      priority: interactive
+      project: aec-students
+      retries: 1
+      schema: dbt_cubamp
+      threads: 8
+      timeout_seconds: 300
+      type: bigquery
+  target: dev

@@ -1,0 +1,232 @@
+[0m14:29:01.423135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68bb759a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68ba3c37f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68ba3c36a0>]}
+
+
+============================== 14:29:01.426305 | 73ef90bf-612a-4f66-aff8-994ae0eb9dc7 ==============================
+[0m14:29:01.426305 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:29:01.427126 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:29:18.548031 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:30:05.733043 [info ] [MainThread]: Profile coffee_shop_cuba written to /workspaces/ae-club-cuba/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:30:05.734325 [info ] [MainThread]: 
+Your new dbt project "coffee_shop_cuba" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:30:05.735737 [debug] [MainThread]: Command `dbt init` succeeded at 14:30:05.735467 after 64.32 seconds
+[0m14:30:05.736335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68bb759a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68b89022f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68b8902650>]}
+[0m14:30:05.736854 [debug] [MainThread]: Flushing usage events
+[0m14:38:11.996309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea8c41a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea78c7880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea78c77f0>]}
+
+
+============================== 14:38:11.999600 | 63af574f-97b4-4972-b439-3c8e5d9e1b1e ==============================
+[0m14:38:11.999600 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:38:12.000478 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:38:12.001163 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-cuba/.dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:38:12.002114 [debug] [MainThread]: Command `dbt run` failed at 14:38:12.001937 after 0.02 seconds
+[0m14:38:12.002790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea8c41a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea78c7850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ea78c7a60>]}
+[0m14:38:12.003282 [debug] [MainThread]: Flushing usage events
+[0m14:39:34.100417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4065a1da20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40644938b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4064493850>]}
+
+
+============================== 14:39:34.104841 | bf019613-002e-472a-a05a-47df5ba8c577 ==============================
+[0m14:39:34.104841 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:39:34.105736 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:39:34.507847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f40629c7790>]}
+[0m14:39:34.522869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a01420>]}
+[0m14:39:34.535550 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m14:39:34.536414 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:39:34.537067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a02320>]}
+[0m14:39:35.302649 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m14:39:35.309254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a814b0>]}
+[0m14:39:35.316312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a826b0>]}
+[0m14:39:35.316932 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:39:35.317519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bf019613-002e-472a-a05a-47df5ba8c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a80c10>]}
+[0m14:39:35.318820 [info ] [MainThread]: 
+[0m14:39:35.319560 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:39:35.320471 [debug] [MainThread]: Command end result
+[0m14:39:35.326960 [debug] [MainThread]: Command `dbt run` succeeded at 14:39:35.326806 after 1.24 seconds
+[0m14:39:35.327439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4065a1da20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a81d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4062a826b0>]}
+[0m14:39:35.327936 [debug] [MainThread]: Flushing usage events
+[0m14:42:50.566624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64033c5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64020af8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64020af940>]}
+
+
+============================== 14:42:50.569399 | c07c37bb-7628-4636-9d0e-41d5f553e503 ==============================
+[0m14:42:50.569399 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:42:50.570192 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'version_check': 'True', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:42:50.943581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c07c37bb-7628-4636-9d0e-41d5f553e503', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6402d42b30>]}
+[0m14:42:50.958444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c07c37bb-7628-4636-9d0e-41d5f553e503', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64005fb700>]}
+[0m14:42:50.970968 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m14:42:50.994188 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:42:50.994723 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:42:50.995241 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m14:42:51.002003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c07c37bb-7628-4636-9d0e-41d5f553e503', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64003a80d0>]}
+[0m14:42:51.008860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c07c37bb-7628-4636-9d0e-41d5f553e503', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64004a7190>]}
+[0m14:42:51.009406 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:42:51.009988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c07c37bb-7628-4636-9d0e-41d5f553e503', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64004a7100>]}
+[0m14:42:51.011248 [info ] [MainThread]: 
+[0m14:42:51.011944 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:42:51.012823 [debug] [MainThread]: Command end result
+[0m14:42:51.018825 [debug] [MainThread]: Command `dbt run` succeeded at 14:42:51.018692 after 0.46 seconds
+[0m14:42:51.019278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64033c5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64005fb700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64004a4850>]}
+[0m14:42:51.019790 [debug] [MainThread]: Flushing usage events
+[0m14:46:18.815941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b11719a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b103af850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b103af7f0>]}
+
+
+============================== 14:46:18.819322 | 73d6c140-67c4-4b0d-a5ae-6cc58c98bb97 ==============================
+[0m14:46:18.819322 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:46:18.821953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:18.917148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '73d6c140-67c4-4b0d-a5ae-6cc58c98bb97', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b10228fa0>]}
+[0m14:46:18.932148 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:46:18.933912 [debug] [MainThread]: Command `dbt deps` succeeded at 14:46:18.933713 after 0.13 seconds
+[0m14:46:18.938481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b11719a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b10228fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b1022ba60>]}
+[0m14:46:18.939232 [debug] [MainThread]: Flushing usage events
+[0m14:46:24.823362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd913f9a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8fe939a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8fe93940>]}
+
+
+============================== 14:46:24.826402 | 8414421e-061b-47b7-a039-192221dc005f ==============================
+[0m14:46:24.826402 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:46:24.827245 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:25.218523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8414421e-061b-47b7-a039-192221dc005f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8e3c4fd0>]}
+[0m14:46:25.233761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8414421e-061b-47b7-a039-192221dc005f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8e3fc0a0>]}
+[0m14:46:25.247041 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m14:46:25.269616 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:46:25.270238 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:46:25.270789 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m14:46:25.277792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8414421e-061b-47b7-a039-192221dc005f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8e1900d0>]}
+[0m14:46:25.284807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8414421e-061b-47b7-a039-192221dc005f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8e35fc40>]}
+[0m14:46:25.285365 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:46:25.286749 [info ] [MainThread]: 
+[0m14:46:25.287314 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:46:25.288246 [debug] [MainThread]: Command end result
+[0m14:46:25.294370 [debug] [MainThread]: Command `dbt build` succeeded at 14:46:25.294236 after 0.48 seconds
+[0m14:46:25.294869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd913f9a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd913f0c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd8e35d420>]}
+[0m14:46:25.295339 [debug] [MainThread]: Flushing usage events
+[0m14:46:30.037680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0f2115a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0f0daf910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0f0daf8b0>]}
+
+
+============================== 14:46:30.040825 | a2d81ebd-e802-4f32-858e-34fed2d527a1 ==============================
+[0m14:46:30.040825 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:46:30.041708 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'fail_fast': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:30.420522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2d81ebd-e802-4f32-858e-34fed2d527a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef2e8cd0>]}
+[0m14:46:30.436647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2d81ebd-e802-4f32-858e-34fed2d527a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef323b50>]}
+[0m14:46:30.449894 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m14:46:30.472097 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:46:30.472661 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:46:30.473177 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m14:46:30.479892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2d81ebd-e802-4f32-858e-34fed2d527a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef0ac0d0>]}
+[0m14:46:30.486629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2d81ebd-e802-4f32-858e-34fed2d527a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef1aba60>]}
+[0m14:46:30.487236 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:46:30.487854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2d81ebd-e802-4f32-858e-34fed2d527a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef1ab9d0>]}
+[0m14:46:30.489210 [info ] [MainThread]: 
+[0m14:46:30.489882 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:46:30.490813 [debug] [MainThread]: Command end result
+[0m14:46:30.497066 [debug] [MainThread]: Command `dbt run` succeeded at 14:46:30.496929 after 0.47 seconds
+[0m14:46:30.497541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0f2115a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0f21d55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0ef1a9120>]}
+[0m14:46:30.498005 [debug] [MainThread]: Flushing usage events
+[0m14:50:23.408001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd10d49a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0f893880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0f893910>]}
+
+
+============================== 14:50:23.410829 | 53b0211d-e00b-4172-b4b7-f30a87a4c3c3 ==============================
+[0m14:50:23.410829 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:50:23.411663 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:50:23.779885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '53b0211d-e00b-4172-b4b7-f30a87a4c3c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0ddccc10>]}
+[0m14:50:23.797231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '53b0211d-e00b-4172-b4b7-f30a87a4c3c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0de03b20>]}
+[0m14:50:23.809800 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m14:50:23.832052 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:50:23.832536 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:50:23.833033 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m14:50:23.849463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '53b0211d-e00b-4172-b4b7-f30a87a4c3c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0dd880d0>]}
+[0m14:50:23.859755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '53b0211d-e00b-4172-b4b7-f30a87a4c3c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0dcb7970>]}
+[0m14:50:23.860321 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:50:23.860907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '53b0211d-e00b-4172-b4b7-f30a87a4c3c3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0dcb78e0>]}
+[0m14:50:23.862409 [info ] [MainThread]: 
+[0m14:50:23.863094 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:50:23.864118 [debug] [MainThread]: Command end result
+[0m14:50:23.869732 [debug] [MainThread]: Command `dbt run` succeeded at 14:50:23.869601 after 0.47 seconds
+[0m14:50:23.870172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd10d49a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd10d43c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0dcb5030>]}
+[0m14:50:23.870605 [debug] [MainThread]: Flushing usage events
+[0m15:06:19.934398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc662795a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6614c78b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6614c7940>]}
+
+
+============================== 15:06:19.937299 | 97378da9-97eb-40ca-8e05-4378dbbb834c ==============================
+[0m15:06:19.937299 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:06:19.938109 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:06:20.302332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '97378da9-97eb-40ca-8e05-4378dbbb834c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65fa04a30>]}
+[0m15:06:20.319557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '97378da9-97eb-40ca-8e05-4378dbbb834c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65fa3bbe0>]}
+[0m15:06:20.332639 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m15:06:20.354683 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:06:20.355320 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:06:20.355872 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m15:06:20.362705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '97378da9-97eb-40ca-8e05-4378dbbb834c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65f7c00d0>]}
+[0m15:06:20.369567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '97378da9-97eb-40ca-8e05-4378dbbb834c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65f7977c0>]}
+[0m15:06:20.370149 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m15:06:20.370746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97378da9-97eb-40ca-8e05-4378dbbb834c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65f797730>]}
+[0m15:06:20.372076 [info ] [MainThread]: 
+[0m15:06:20.372770 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:06:20.373677 [debug] [MainThread]: Command end result
+[0m15:06:20.379937 [debug] [MainThread]: Command `dbt run` succeeded at 15:06:20.379783 after 0.45 seconds
+[0m15:06:20.380483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc662795a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc662855660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65f794e80>]}
+[0m15:06:20.381007 [debug] [MainThread]: Flushing usage events
+[0m15:06:45.382826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9aca199a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ac8eaf910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ac8eaf8b0>]}
+
+
+============================== 15:06:45.385605 | bb978b4a-4586-4099-b761-6323bb7a018f ==============================
+[0m15:06:45.385605 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:06:45.386401 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:06:45.711177 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "coffee_shop_cuba", target "dev" invalid: Runtime Error
+    Got duplicate keys: (dataset) all map to "schema"
+[0m15:06:45.712424 [debug] [MainThread]: Command `dbt run` failed at 15:06:45.712258 after 0.34 seconds
+[0m15:06:45.713005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9aca199a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ac8d29990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ac73f0dc0>]}
+[0m15:06:45.713736 [debug] [MainThread]: Flushing usage events
+[0m15:08:42.006027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d0029a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6cea938e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6cea93880>]}
+
+
+============================== 15:08:42.008892 | 11a65f3f-5719-4fe0-a54b-f03c15ef0616 ==============================
+[0m15:08:42.008892 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:08:42.009726 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-cuba/.dbt/logs', 'version_check': 'True', 'profiles_dir': '/workspaces/ae-club-cuba/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:08:42.369006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '11a65f3f-5719-4fe0-a54b-f03c15ef0616', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6ccfccbb0>]}
+[0m15:08:42.385846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '11a65f3f-5719-4fe0-a54b-f03c15ef0616', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6cd003b80>]}
+[0m15:08:42.398739 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m15:08:42.420475 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:08:42.421000 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:08:42.421532 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_cuba.example
+[0m15:08:42.428394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '11a65f3f-5719-4fe0-a54b-f03c15ef0616', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6ccf840d0>]}
+[0m15:08:42.435594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '11a65f3f-5719-4fe0-a54b-f03c15ef0616', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6ccebb910>]}
+[0m15:08:42.436199 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m15:08:42.436787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '11a65f3f-5719-4fe0-a54b-f03c15ef0616', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6ccebb880>]}
+[0m15:08:42.438093 [info ] [MainThread]: 
+[0m15:08:42.438701 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:08:42.439579 [debug] [MainThread]: Command end result
+[0m15:08:42.446124 [debug] [MainThread]: Command `dbt run` succeeded at 15:08:42.445954 after 0.45 seconds
+[0m15:08:42.446629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d0029a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d0023c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6cceb8fd0>]}
+[0m15:08:42.447114 [debug] [MainThread]: Flushing usage events
